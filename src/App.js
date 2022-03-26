@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
 	const expenses = [
 		{id: 1, title: 'Train ticket', amount: 1200, date: new Date(2022, 2, 25)},
 		{id: 2, title: 'Dinner', amount: 200, date: new Date(2022, 1, 7)},
